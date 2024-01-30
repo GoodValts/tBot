@@ -7,7 +7,7 @@ To start the application, please make sure you have [Git](https://git-scm.com) a
 1. Switch to 'develop' branch: `git checkout develop`
 1. Install dependencies: `npm install`
 1. Start server: `npm run start`
-1. Start bot _[(default link)](https://t.me/str_repeater_bot)_
+1. Start your bot ([_default link_])(https://t.me/str_repeater_bot)
 
 If you want to create your own bot - create it and get token. Put this token to `token.mjs`
 
