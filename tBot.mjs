@@ -37,6 +37,8 @@ bot.start((ctx) => {
 });
 
 bot.on('message', (ctx) => {
+  console.log(ctx);
+
   const userName = ctx.message.from.first_name;
   const message = ctx.update.message.text;
   const clientID = ctx.message.from.id;
@@ -51,8 +53,7 @@ bot.on('message', (ctx) => {
   if (!data[clientID].respect && message.trim() === 'F') {
     data[clientID].respect = true;
     data[clientID].log = new Date();
-    
-    ctx.reply(`Only don't tell me you haven't been innocent. It insults my intelligence!`);
+    ctx.reply(`Only don't tell me you haven't been innocent. It insults my intelligence!\nWell, no matter, keep typing...`);
   } else {
     if (!data[clientID].respect) {
       if (data[clientID].limit > 0) {
@@ -93,4 +94,3 @@ process.once('SIGINT', () => {
   console.log('\n\x1b[32mFinished!');
 });
 process.once('SIGTERM', () => bot.stop('SIGTERM'));
-// https://t.me/str_repeater_bot

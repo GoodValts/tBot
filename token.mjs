@@ -1,3 +1,3 @@
-const TOKEN = '6736858374:AAE-dLxHUB7tI_LvSJlEWQwRF96wtNNajqs';
+const TOKEN = '';
 
 export default TOKEN;
