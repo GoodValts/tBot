@@ -6,7 +6,7 @@ To start the application, please make sure you have [Git](https://git-scm.com) a
 1. Navigate to the project directory: `cd tBot`
 1. Switch to 'develop' branch: `git checkout develop`
 1. Install dependencies: `npm install`
-1. Put bot token to `token.mjs`: `npm install`
+1. Put bot token to `token.mjs`: `const TOKEN = 'put_token_here';`
 1. Start server: `npm run start`
 1. Start bot ([_default link_](https://t.me/str_repeater_bot))
 
