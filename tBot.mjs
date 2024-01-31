@@ -37,8 +37,6 @@ bot.start((ctx) => {
 });
 
 bot.on('message', (ctx) => {
-  console.log(ctx);
-
   const userName = ctx.message.from.first_name;
   const message = ctx.update.message.text;
   const clientID = ctx.message.from.id;
