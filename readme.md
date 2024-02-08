@@ -8,6 +8,6 @@ To start the application, please make sure you have [Git](https://git-scm.com) a
 1. Install dependencies: `npm install`
 1. Put bot token to `token.mjs`: `const TOKEN = 'put_token_here';`
 1. Start server: `npm run start`
-1. Start bot ([_default link_](https://t.me/str_repeater_bot))
+1. Start bot
 
 P.S. Error `Data read error! Check log.txt` - it's normal for the first start, because you have no logs ;)
